@@ -8,7 +8,8 @@ globalVariables(c('SNP_A', 'SNP_B', 'bootstrap_estimate', 'bootstrap_error',
                   'geom_pointrange', 'start'))
 
 .onAttach <- function(libname, pkgname) {
-  packageStartupMessage("Welcome to rolypoly! Say hi @diegoisworking.")
+  # packageStartupMessage("Welcome to rolypoly! Say hi @diegoisworking.")
+  packageStartupMessage("Welcome to rolypoly-timshel! A fork of dcalderon's RolyPoly repo: https://github.com/dcalderon/rolypoly.")
 }
 
 .onLoad <- function(libname, pkgname) {
