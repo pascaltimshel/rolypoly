@@ -4,12 +4,13 @@
 \alias{rolypoly_roll}
 \title{Main rolypoly wrapper function.}
 \usage{
-rolypoly_roll(rolypoly = NULL, gwas_data = NULL, block_annotation = NULL,
-  block_data = NULL, ld_folder = NULL, bootstrap_iters = 50,
-  outlier_threshold = -1, perform_cv = F, n_folds = 10,
-  gwas_z_filter = -1, add_spline = F, n_knots = 1, add_poly = F,
-  n_degree = 2, run_light = T, gwas_link_parallel = F,
-  bootstrap_parallel = F, keep_model = F, keep_gwas = F, ...)
+rolypoly_roll(rolypoly = NULL, gwas_data = NULL,
+  block_annotation = NULL, block_data = NULL, ld_folder = NULL,
+  bootstrap_iters = 50, outlier_threshold = -1, perform_cv = F,
+  n_folds = 10, gwas_z_filter = -1, add_spline = F, n_knots = 1,
+  add_poly = F, n_degree = 2, run_light = T,
+  gwas_link_parallel = F, bootstrap_parallel = F, keep_model = F,
+  keep_gwas = F, ...)
 }
 \arguments{
 \item{rolypoly}{Previous rolypoly run to parts of pipeline.}

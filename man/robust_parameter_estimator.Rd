@@ -4,7 +4,8 @@
 \alias{robust_parameter_estimator}
 \title{Find robust parameter estimates for the data.}
 \usage{
-robust_parameter_estimator(vectorized_rolypoly_data, outlier_threshold = 10)
+robust_parameter_estimator(vectorized_rolypoly_data,
+  outlier_threshold = 10)
 }
 \arguments{
 \item{vectorized_rolypoly_data}{vectorized rolypoly data}

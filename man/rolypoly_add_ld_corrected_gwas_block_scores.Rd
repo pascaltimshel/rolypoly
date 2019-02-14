@@ -4,7 +4,8 @@
 \alias{rolypoly_add_ld_corrected_gwas_block_scores}
 \title{Add LD corrected block scores to rolypoly.}
 \usage{
-rolypoly_add_ld_corrected_gwas_block_scores(rolypoly, fast_calculation = T)
+rolypoly_add_ld_corrected_gwas_block_scores(rolypoly,
+  fast_calculation = T)
 }
 \arguments{
 \item{rolypoly}{rolypoly data}

@@ -4,8 +4,8 @@
 \alias{cv_regularized_parameter_estimator}
 \title{Perform regularization inference.}
 \usage{
-cv_regularized_parameter_estimator(vectorized_rolypoly_data, n_folds = 10,
-  ...)
+cv_regularized_parameter_estimator(vectorized_rolypoly_data,
+  n_folds = 10, ...)
 }
 \arguments{
 \item{vectorized_rolypoly_data}{rolypoly data used for inference}

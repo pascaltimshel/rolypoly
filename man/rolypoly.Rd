@@ -4,7 +4,9 @@
 \name{rolypoly}
 \alias{rolypoly}
 \alias{rolypoly-package}
-\title{The rolypoly package for identifying annotations associated with complex traits.}
+\title{The rolypoly package for identifying annotations associated with complex traits.
+FORK by pascaltimshel}
 \description{
 The rolypoly package for identifying annotations associated with complex traits.
+FORK by pascaltimshel
 }
